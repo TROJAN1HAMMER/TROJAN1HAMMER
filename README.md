@@ -353,9 +353,7 @@ Software Engineer and Integrated M.Tech student at **VIT Vellore**, specializing
   &nbsp;
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=TROJAN1HAMMER&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" height="155" />
 
-  <br/><br/>
-
-  <img src="https://streak-stats.demolab.com?user=TROJAN1HAMMER&theme=tokyonight&hide_border=true" alt="Contribution Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TROJAN1HAMMER&theme=tokyonight" alt="Contribution Details" width="95%" />
 
   <br/><br/>
 
