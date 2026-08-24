@@ -1,13 +1,19 @@
 <div align="center">
 
-# Harshith B
-
-<a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1100&color=38BDF8&center=true&vCenter=true&width=620&height=45&lines=Software+Engineer+%7C+Systems+Builder;Backend+%26+Distributed+Microservices;Applied+AI+%2F+ML+%26+Deep+Learning+Pipelines;DevSecOps%2C+AppSec+%26+Threat+Intelligence;Cloud+CI%2FCD+%26+High-Throughput+APIs" alt="Typing Subtitle" />
+<a href="https://github.com/TROJAN1HAMMER">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=42&duration=1800&pause=1000000&color=38BDF8&center=true&vCenter=true&width=480&height=60&lines=HARSHITH+B" alt="HARSHITH B" />
 </a>
 
 <p align="center">
-  <code>Backend Systems</code> · <code>Applied AI/ML</code> · <code>Application Security</code> · <code>Cloud & DevOps</code>
+  <img src="https://img.shields.io/badge/SOFTWARE_ENGINEER-BACKEND_%7C_AI%2FML_%7C_SECURITY-0F172A?style=for-the-badge&logo=codeforces&logoColor=38BDF8&labelColor=0284C7" alt="Title Badge" />
+</p>
+
+<a href="https://readme-typing-svg.demolab.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=620&height=40&lines=Software+Engineer+%7C+Systems+Builder;Backend+%26+Distributed+Microservices;Applied+AI+%2F+ML+%26+Deep+Learning;AppSec%2C+DevSecOps+%26+Threat+Intelligence;Cloud+CI%2FCD+%26+High-Throughput+APIs" alt="Typing Subtitle" />
+</a>
+
+<p align="center">
+  <code>Backend & Distributed Microservices</code> · <code>Applied AI / ML Systems</code> · <code>Application Security & DevSecOps</code>
 </p>
 
 <br/>
@@ -58,7 +64,7 @@
 
 ### 👨‍💻 About Me
 
-Software Engineer and Integrated M.Tech student at **VIT Vellore**, specializing in backend systems architecture, applied AI/ML engineering, and proactive application security. I engineer high-throughput microservices, train domain-specific deep learning models, build multi-agent intelligence platforms, conduct applied cybersecurity research, and collaborate across team-driven codebases.
+Software Engineer and Integrated M.Tech student at **VIT Vellore**, specializing in backend systems architecture, applied AI/ML engineering, and proactive application security. I engineer high-throughput microservices, train domain-specific deep learning models, build multi-agent intelligence platforms, conduct applied cybersecurity research, and collaborate on open-source and team-driven architectures.
 
 ---
 
@@ -337,45 +343,6 @@ Software Engineer and Integrated M.Tech student at **VIT Vellore**, specializing
 
 <br/>
 
-<details open>
-  <summary><strong>📂 Selected Collaborative & External Repositories</strong></summary>
-
-  <br/>
-
-  <table width="100%">
-    <thead>
-      <tr>
-        <th align="left" width="30%">Repository</th>
-        <th align="left" width="20%">Role / Type</th>
-        <th align="left">Engineering Contribution</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong><a href="https://github.com/johnpradeep06/Kairo">johnpradeep06/Kairo</a></strong></td>
-        <td>Collaborative Team Project</td>
-        <td>Enterprise Graph RAG platform with autonomous AI agents for compliance, multimodal document intelligence, and verifiable knowledge graph reasoning.</td>
-      </tr>
-      <tr>
-        <td><strong><a href="https://github.com/konnichiwow/KonnichiWow-Flashcard-App-Backend">konnichiwow/KonnichiWow-Backend</a></strong></td>
-        <td>External Open Source PR</td>
-        <td>Authored & merged <a href="https://github.com/konnichiwow/KonnichiWow-Flashcard-App-Backend/pull/8">PR #8</a> implementing Firebase Authentication and secure user management integration with the frontend.</td>
-      </tr>
-      <tr>
-        <td><strong><a href="https://github.com/NoelNinanSheri1307/Valar">NoelNinanSheri1307/Valar</a></strong></td>
-        <td>Team Hackathon Project</td>
-        <td>Contributed technical investigations and workflow enhancements across document ingestion format parsers and UX lifecycles (<a href="https://github.com/NoelNinanSheri1307/Valar/issues/11">Issue #11</a>).</td>
-      </tr>
-      <tr>
-        <td><strong><a href="https://github.com/TROJAN1HAMMER/AutoStockPro">AutoStockPro</a></strong></td>
-        <td>Collaborative Full-Stack</td>
-        <td>Full-stack AI inventory platform integrating Django REST backend, React frontend, and cross-platform Flutter inventory scanner.</td>
-      </tr>
-    </tbody>
-  </table>
-
-</details>
-
 ---
 
 ### 📊 Engineering Activity & Telemetry
@@ -392,7 +359,6 @@ Software Engineer and Integrated M.Tech student at **VIT Vellore**, specializing
 
   <br/><br/>
 
-  <!-- 365-Day Contribution Calendar Heatmap -->
   <table width="100%">
     <thead>
       <tr>
@@ -409,70 +375,13 @@ Software Engineer and Integrated M.Tech student at **VIT Vellore**, specializing
             <img src="https://ghchart.rshah.org/38BDF8/TROJAN1HAMMER" alt="Harshith's GitHub Contribution Heatmap" width="98%" />
           </a>
           <br/><br/>
-          <p align="center">
-            <sub><strong>Activity Matrix:</strong> <code>Backend Systems</code> · <code>Applied AI/ML</code> · <code>AppSec & DevSecOps</code> · <code>Open Source</code></sub>
-          </p>
+          <sub>⚡ Continuous commit streak across backend, AI/ML & security architectures</sub>
         </td>
       </tr>
     </tbody>
   </table>
 
-  <br/>
-
-  <!-- Contribution Snake Animation -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TROJAN1HAMMER/TROJAN1HAMMER/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TROJAN1HAMMER/TROJAN1HAMMER/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/TROJAN1HAMMER/TROJAN1HAMMER/output/github-contribution-grid-snake.svg" width="95%" />
-  </picture>
-
 </div>
-
----
-
-### 📂 Repository Explorer
-
-<details>
-  <summary><strong>🧠 AI & Machine Learning Repositories</strong></summary>
-  <br/>
-  <ul>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/Synapse-Sentinel">Synapse-Sentinel</a></strong>: PyTorch Transformer & Neuro-Fuzzy intrusion detection system.</li>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/Ai-Proj">Ai-Proj</a></strong>: AI-driven vulnerability intelligence and exploit likelihood estimation.</li>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/YOLO_v8_Real-Time-Objection-Detection-with-IoT-Integration">YOLOv8-IoT</a></strong>: Real-time YOLOv8 object detection with Arduino integration.</li>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/ICAPOS">ICAPOS</a></strong>: Cognitive-aware academic performance predictor using IoT sensors and XGBoost ensemble.</li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>🔐 Security & Forensics Repositories</strong></summary>
-  <br/>
-  <ul>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/Kerala-Police-Hack">Kerala-Police-Hack (Sentinel-X)</a></strong>: Multi-agent OSINT & digital forensics platform for Kerala Police Cyberdome.</li>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/Synapse-Sentinel">Synapse-Sentinel</a></strong>: Deep learning network anomaly detection with SHAP explainability.</li>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/Ai-Proj">Ai-Proj</a></strong>: Predictive vulnerability triage engine replacing static CVSS alert fatigue.</li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>⚙️ Backend & Cloud CI/CD Repositories</strong></summary>
-  <br/>
-  <ul>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/springboot-cicd-app-23MIS0012">springboot-cicd-app</a></strong>: Automated deployment with Spring Boot, Jenkinsfile, Docker, and Kubernetes manifests.</li>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/SCM_Project">SCM_Project (IntelliSCM)</a></strong>: Node.js, Express, and MongoDB software configuration governance API.</li>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/AutoStockPro">AutoStockPro</a></strong>: Full-stack supply chain and inventory system with Django REST backend and SARIMAX forecasting.</li>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/Code-A-Thon">Code-A-Thon</a></strong>: High-integrity online election voting system engineered with C++.</li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>🌐 Full-Stack & Mobile Repositories</strong></summary>
-  <br/>
-  <ul>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/Health_Monitor">Health_Monitor</a></strong>: Real-time telemetry monitoring application built in Flutter & Dart.</li>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/ONLINE-EXAM-APP-23MIS0012">ONLINE-EXAM-APP</a></strong>: Full-stack assessment application with real-time test submission.</li>
-    <li><strong><a href="https://github.com/TROJAN1HAMMER/AutoStockPro">AutoStockPro Frontend & Mobile</a></strong>: Responsive React dashboard paired with cross-platform Flutter inventory scanner.</li>
-  </ul>
-</details>
 
 ---
 
