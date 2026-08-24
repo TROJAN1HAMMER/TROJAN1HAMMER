@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ HARSHITH B
+#  HARSHITH B
 ### **Software Engineer · Backend Systems · Applied AI/ML & Application Security**
 
 <a href="https://readme-typing-svg.demolab.com">
