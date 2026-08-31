@@ -1,0 +1,42 @@
+name: Update Profile Engineering Telemetry
+
+on:
+  schedule:
+    # Run twice daily (06:00 and 18:00 UTC)
+    - cron: "0 6,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Execute Telemetry & Activity Updater
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/update_activity.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git add README.md
+            git commit -m "chore(telemetry): update dynamic engineering activity [skip ci]"
+            git push
+          else
+            echo "No changes in activity telemetry."
+          fi

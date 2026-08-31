@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="grad-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="grad-violet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="bg-box" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0.95" />
+    </linearGradient>
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-violet" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .node-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 800; letter-spacing: 0.5px; fill: #FFFFFF; }
+    .node-sub { font-family: 'Fira Code', monospace, Courier; font-size: 9px; fill: #94A3B8; }
+    .node-badge { font-family: 'Fira Code', monospace; font-size: 8px; font-weight: 700; }
+    .flow-line { stroke: #38BDF8; stroke-width: 1.5; stroke-dasharray: 4 4; animation: dash 30s linear infinite; }
+    .flow-line-v { stroke: #8B5CF6; stroke-width: 1.5; stroke-dasharray: 4 4; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="900" height="240" rx="16" fill="#05070E" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Grid Pattern Overlay -->
+  <g opacity="0.15">
+    <path d="M 0 40 L 900 40 M 0 80 L 900 80 M 0 120 L 900 120 M 0 160 L 900 160 M 0 200 L 900 200" stroke="#38BDF8" stroke-width="0.5" />
+    <path d="M 150 0 L 150 240 M 300 0 L 300 240 M 450 0 L 450 240 M 600 0 L 600 240 M 750 0 L 750 240" stroke="#38BDF8" stroke-width="0.5" />
+  </g>
+
+  <!-- Connectors -->
+  <!-- 1 to 2 -->
+  <path d="M 155 75 L 195 75" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrow)" />
+  <circle cx="175" cy="75" r="3" fill="#38BDF8" />
+
+  <!-- 2 to 3 -->
+  <path d="M 335 75 L 375 75" stroke="#38BDF8" stroke-width="2" />
+  <circle cx="355" cy="75" r="3" fill="#38BDF8" />
+
+  <!-- 3 to 4 -->
+  <path d="M 515 75 L 555 75" stroke="#8B5CF6" stroke-width="2" />
+  <circle cx="535" cy="75" r="3" fill="#8B5CF6" />
+
+  <!-- 4 to 5 -->
+  <path d="M 695 75 L 735 75" stroke="#8B5CF6" stroke-width="2" />
+  <circle cx="715" cy="75" r="3" fill="#8B5CF6" />
+
+  <!-- Vertical Feedback / Integration Lines to Bottom Layer -->
+  <path d="M 265 110 L 265 145 L 375 165" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7" />
+  <path d="M 445 110 L 445 145 L 450 145" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7" />
+  <path d="M 625 110 L 625 145 L 525 165" stroke="#8B5CF6" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7" />
+  <path d="M 805 110 L 805 155 L 735 175" stroke="#8B5CF6" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7" />
+
+  <!-- NODE 1: Ingress / Client -->
+  <g transform="translate(25, 40)">
+    <rect width="130" height="70" rx="10" fill="url(#bg-box)" stroke="#38BDF8" stroke-width="1.5" />
+    <rect x="0" y="0" width="130" height="4" rx="2" fill="url(#grad-cyan)" />
+    <text x="12" y="24" class="node-badge" fill="#38BDF8">01 // INGRESS</text>
+    <text x="12" y="42" class="node-title">Client / Edge</text>
+    <text x="12" y="58" class="node-sub">Next.js • Flutter • APIs</text>
+  </g>
+
+  <!-- NODE 2: Gateway & Auth -->
+  <g transform="translate(195, 40)">
+    <rect width="140" height="70" rx="10" fill="url(#bg-box)" stroke="#38BDF8" stroke-width="1.5" />
+    <rect x="0" y="0" width="140" height="4" rx="2" fill="url(#grad-cyan)" />
+    <text x="12" y="24" class="node-badge" fill="#38BDF8">02 // GATEWAY</text>
+    <text x="12" y="42" class="node-title">Nginx &amp; Auth Gate</text>
+    <text x="12" y="58" class="node-sub">Reverse Proxy • JWT / RBAC</text>
+  </g>
+
+  <!-- NODE 3: Distributed Services -->
+  <g transform="translate(375, 40)">
+    <rect width="140" height="70" rx="10" fill="url(#bg-box)" stroke="#38BDF8" stroke-width="1.5" />
+    <rect x="0" y="0" width="140" height="4" rx="2" fill="url(#grad-cyan)" />
+    <text x="12" y="24" class="node-badge" fill="#38BDF8">03 // CORE BACKEND</text>
+    <text x="12" y="42" class="node-title">Microservices</text>
+    <text x="12" y="58" class="node-sub">FastAPI • Node • NestJS</text>
+  </g>
+
+  <!-- NODE 4: Async & Vector Layer -->
+  <g transform="translate(555, 40)">
+    <rect width="140" height="70" rx="10" fill="url(#bg-box)" stroke="#8B5CF6" stroke-width="1.5" />
+    <rect x="0" y="0" width="140" height="4" rx="2" fill="url(#grad-violet)" />
+    <text x="12" y="24" class="node-badge" fill="#A78BFA">04 // DATA &amp; RETRIEVAL</text>
+    <text x="12" y="42" class="node-title">pgvector &amp; Queues</text>
+    <text x="12" y="58" class="node-sub">Redis • Celery • HNSW</text>
+  </g>
+
+  <!-- NODE 5: Applied AI & Security -->
+  <g transform="translate(735, 40)">
+    <rect width="140" height="70" rx="10" fill="url(#bg-box)" stroke="#8B5CF6" stroke-width="1.5" />
+    <rect x="0" y="0" width="140" height="4" rx="2" fill="url(#grad-violet)" />
+    <text x="12" y="24" class="node-badge" fill="#A78BFA">05 // AI &amp; SEC ENGINE</text>
+    <text x="12" y="42" class="node-title">Transformers &amp; XAI</text>
+    <text x="12" y="58" class="node-sub">PyTorch • Scapy • SHAP</text>
+  </g>
+
+  <!-- BOTTOM LAYER: Infrastructure & Observability Foundation -->
+  <g transform="translate(195, 150)">
+    <rect width="510" height="60" rx="10" fill="#0A0E1A" stroke="#1E293B" stroke-width="1.5" />
+    <path d="M 0 0 L 510 0" stroke="url(#grad-cyan)" stroke-width="2" />
+    <text x="20" y="26" class="node-badge" fill="#38BDF8">FOUNDATION // INFRASTRUCTURE &amp; CLOUD DEPLOYMENT</text>
+    <text x="20" y="46" class="node-title">AWS Topology (EC2 / S3 / IAM) • Docker Containerization • CI/CD Pipelines • eBPF &amp; SARIF Telemetry</text>
+  </g>
+</svg>
