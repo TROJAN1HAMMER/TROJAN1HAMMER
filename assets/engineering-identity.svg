@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="id-grad-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="id-grad-violet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+    <linearGradient id="id-panel-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#090E1A" />
+      <stop offset="100%" stop-color="#04060B" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .id-title { font-family: 'Fira Code', monospace; font-size: 11px; font-weight: 800; letter-spacing: 0.5px; }
+    .id-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #CBD5E1; line-height: 1.4; }
+  </style>
+
+  <!-- CARD 1: BACKEND SYSTEMS -->
+  <g transform="translate(0, 0)">
+    <rect width="216" height="130" rx="10" fill="url(#id-panel-bg)" stroke="#1E293B" stroke-width="1" />
+    <path d="M 0 10 Q 0 0 10 0 L 206 0 Q 216 0 216 10" fill="none" stroke="url(#id-grad-cyan)" stroke-width="2.5" />
+    <text x="14" y="28" class="id-title" fill="#38BDF8">01 // BACKEND SYSTEMS</text>
+    <text x="14" y="52" class="id-sub">High-Throughput APIs</text>
+    <text x="14" y="70" class="id-sub">Asynchronous Pipelines</text>
+    <text x="14" y="88" class="id-sub">Distributed Services &amp; Queues</text>
+    <text x="14" y="108" font-family="'Fira Code', monospace" font-size="9.5px" fill="#64748B">FastAPI • Node • Prisma</text>
+  </g>
+
+  <!-- CARD 2: APPLIED AI / ML -->
+  <g transform="translate(228, 0)">
+    <rect width="216" height="130" rx="10" fill="url(#id-panel-bg)" stroke="#1E293B" stroke-width="1" />
+    <path d="M 0 10 Q 0 0 10 0 L 206 0 Q 216 0 216 10" fill="none" stroke="url(#id-grad-violet)" stroke-width="2.5" />
+    <text x="14" y="28" class="id-title" fill="#C084FC">02 // APPLIED AI / ML</text>
+    <text x="14" y="52" class="id-sub">Self-Attention Transformers</text>
+    <text x="14" y="70" class="id-sub">RAG &amp; Vector Embeddings</text>
+    <text x="14" y="88" class="id-sub">Real-Time Edge Computer Vision</text>
+    <text x="14" y="108" font-family="'Fira Code', monospace" font-size="9.5px" fill="#64748B">PyTorch • YOLOv8 • pgvector</text>
+  </g>
+
+  <!-- CARD 3: SECURITY ENGINEERING -->
+  <g transform="translate(456, 0)">
+    <rect width="216" height="130" rx="10" fill="url(#id-panel-bg)" stroke="#1E293B" stroke-width="1" />
+    <path d="M 0 10 Q 0 0 10 0 L 206 0 Q 216 0 216 10" fill="none" stroke="url(#id-grad-cyan)" stroke-width="2.5" />
+    <text x="14" y="28" class="id-title" fill="#38BDF8">03 // APP SECURITY</text>
+    <text x="14" y="52" class="id-sub">DevSecOps CI/CD Pipelines</text>
+    <text x="14" y="70" class="id-sub">Intrusion Detection &amp; XAI</text>
+    <text x="14" y="88" class="id-sub">Exploit Prioritization &amp; SARIF</text>
+    <text x="14" y="108" font-family="'Fira Code', monospace" font-size="9.5px" fill="#64748B">Scapy • SHAP • CycloneDX</text>
+  </g>
+
+  <!-- CARD 4: CLOUD & INFRASTRUCTURE -->
+  <g transform="translate(684, 0)">
+    <rect width="216" height="130" rx="10" fill="url(#id-panel-bg)" stroke="#1E293B" stroke-width="1" />
+    <path d="M 0 10 Q 0 0 10 0 L 206 0 Q 216 0 216 10" fill="none" stroke="url(#id-grad-violet)" stroke-width="2.5" />
+    <text x="14" y="28" class="id-title" fill="#C084FC">04 // CLOUD &amp; DEVOPS</text>
+    <text x="14" y="52" class="id-sub">AWS Multi-Zone Topologies</text>
+    <text x="14" y="70" class="id-sub">Nginx Proxies &amp; SSL/TLS</text>
+    <text x="14" y="88" class="id-sub">Docker Microservices Isolation</text>
+    <text x="14" y="108" font-family="'Fira Code', monospace" font-size="9.5px" fill="#64748B">AWS • Docker • K8s • Linux</text>
+  </g>
+</svg>
