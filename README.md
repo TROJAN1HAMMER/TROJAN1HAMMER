@@ -255,7 +255,7 @@ I am a Software Engineer and Integrated M.Tech student at **VIT Vellore** (2023â
     <tr>
       <td width="80" align="center"><code>Create</code></td>
       <td>Created branch <code>main</code> on <a href='https://github.com/TROJAN1HAMMER/OneGramTechnician'><b>OneGramTechnician</b></a></td>
-      <td width="90" align="right"><sub>19d ago</sub></td>
+      <td width="90" align="right"><sub>20d ago</sub></td>
     </tr>
   </table>
 
