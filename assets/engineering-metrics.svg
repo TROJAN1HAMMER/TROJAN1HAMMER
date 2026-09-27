@@ -41,7 +41,7 @@
 
   <!-- Metric 3: Hackathon Wins -->
   <g transform="translate(300, 0)">
-    <text x="75" y="44" text-anchor="middle" class="metric-value" fill="url(#metric-cyan)">4×</text>
+    <text x="75" y="44" text-anchor="middle" class="metric-value" fill="url(#metric-cyan)">6×</text>
     <text x="75" y="66" text-anchor="middle" class="metric-label">HACKATHON WINS</text>
     <text x="75" y="82" text-anchor="middle" class="metric-sub">Competitive Build Sprints</text>
     <line x1="150" y1="20" x2="150" y2="80" stroke="#1E293B" stroke-width="1" />
