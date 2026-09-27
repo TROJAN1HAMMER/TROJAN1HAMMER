@@ -182,7 +182,7 @@ I am a Software Engineer and Integrated M.Tech student at **VIT Vellore** (2023�
 
 #### Hackathons & Competitions
 
-* **State &amp; University Build Sprints — Tamil Nadu (4× Winner):** Ranked top podium finishes across multi-college sprint hackathons building high-throughput backend APIs, computer vision pipelines, and Flutter mobile applications.
+* **State &amp; University Build Sprints — Tamil Nadu (6× Winner):** Ranked top podium finishes across multi-college sprint hackathons building high-throughput backend APIs, computer vision pipelines, and Flutter mobile applications.
 * **Code-A-Thon Systems Showcase (Winner):** Engineered a secure, high-integrity electronic voting platform in C++ with tamper-evident audit logging, cryptographic receipt generation, and zero-trust voter validation.
 * **Kerala Police Cyberdome Hackathon (Project Build):** Architected *Sentinel-X*, a multi-agent digital forensics and OSINT intelligence suite featuring interactive knowledge graph entity linking, OCR/NLP evidence extraction, and automated case dossier synthesis.
 * **IIT Kharagpur Competitive Engineering (National Competitor):** Competed in intensive national technical hackathons tackling multi-tier system scalability, edge sensor integration, and real-time distributed data pipelines.
