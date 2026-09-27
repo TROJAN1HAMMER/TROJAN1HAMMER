@@ -50,7 +50,7 @@ $ status     → online & shipping production systems
 I am a Software Engineer and Integrated M.Tech student at **VIT Vellore** (2023–2028, **CGPA: 9.47**). My work centers on building scalable server-side architectures, managing cloud infrastructure, and applying AI/ML and security engineering to real-world software systems.
 
 * **Core Specialization:** High-throughput backend microservices, distributed task queues, applied AI/ML pipelines, and proactive security engineering.
-* **Track Record:** Co-inventor of **2 officially published patents** with Intellectual Property India, **4× hackathon winner**, and active campus leadership as an **Executive Council Member** and **Placement Coordinator** at VIT Vellore.
+* **Track Record:** Co-inventor of **2 officially published patents** with Intellectual Property India, **6× hackathon winner**, and active campus leadership as an **Executive Council Member** and **Placement Coordinator** at VIT Vellore.
 * **Industry Role:** Serving as **Head of Cloud & Networking** and **Senior App Developer** at Baldmann, overseeing AWS server topologies, Nginx networking, containerized deployments, and Flutter applications.
 
 ---
