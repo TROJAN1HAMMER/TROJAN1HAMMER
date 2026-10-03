@@ -255,22 +255,22 @@ I am a Software Engineer and Integrated M.Tech student at **VIT Vellore** (2023â
     <tr>
       <td width="80" align="center"><code>Commit</code></td>
       <td>Pushed updates to <a href='https://github.com/TROJAN1HAMMER/STRATA'><b>STRATA</b></a></td>
-      <td width="90" align="right"><sub>14d ago</sub></td>
+      <td width="90" align="right"><sub>15d ago</sub></td>
     </tr>
     <tr>
       <td width="80" align="center"><code>Commit</code></td>
       <td>Pushed updates to <a href='https://github.com/TROJAN1HAMMER/NOVA'><b>NOVA</b></a></td>
-      <td width="90" align="right"><sub>16d ago</sub></td>
+      <td width="90" align="right"><sub>17d ago</sub></td>
     </tr>
     <tr>
       <td width="80" align="center"><code>Create</code></td>
       <td>Created branch <code>main</code> on <a href='https://github.com/TROJAN1HAMMER/STRATA'><b>STRATA</b></a></td>
-      <td width="90" align="right"><sub>15d ago</sub></td>
+      <td width="90" align="right"><sub>16d ago</sub></td>
     </tr>
     <tr>
       <td width="80" align="center"><code>Create</code></td>
       <td>Created branch <code>main</code> on <a href='https://github.com/TROJAN1HAMMER/GuardAI'><b>GuardAI</b></a></td>
-      <td width="90" align="right"><sub>17d ago</sub></td>
+      <td width="90" align="right"><sub>18d ago</sub></td>
     </tr>
   </table>
 
